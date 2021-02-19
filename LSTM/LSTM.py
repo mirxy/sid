@@ -4,7 +4,6 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
