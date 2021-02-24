@@ -9,7 +9,7 @@ class Model:
     def __init__(self):
         self.path = Path('./model')
         self.load_preprocessor()
-        # self.load_model()
+        self.load_model()
 
     def load_preprocessor(self):
         self.preprocessor = hub.KerasLayer(
