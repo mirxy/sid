@@ -7,7 +7,7 @@ from tensorflow import keras
 
 class Model:
     def __init__(self):
-        self.path = Path('./model')
+        self.path = Path('./Model/model')
         self.load_preprocessor()
         self.load_model()
 
